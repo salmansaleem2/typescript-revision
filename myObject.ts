@@ -6,11 +6,17 @@ const User = {
 
 function createUser({ name: string, isPaid: boolean }) {}
 
-let newUser = { name: "salman", isPaid: true ,email,"salman@gamil.com"};
+let newUser = { name: "salman", isPaid: true, email: "salman@gamil.com" };
 
-createUser({ name: "salman", isPaid: true });
+createUser(newUser);
 
-function createCourse(): { name: string; price: number } {
+type NewUser = {
+  name: string;
+  price: number;
+};
+
+function createCourse(user: NewUser): { name: string; price: number } {
   return { name: "reactjs", price: 399 };
 }
+createCourse({ name: "", price: 499 });
 export {};
