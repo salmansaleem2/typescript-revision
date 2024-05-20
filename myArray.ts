@@ -5,13 +5,13 @@ const heroPower: Array<number> = [];
 superHeros.push("spiderman");
 heroPower.push(23);
 
-type User = {
-  name: string;
-  isActive: boolean;
-};
+// type User = {
+//   name: string;
+//   isActive: boolean;
+// };
 
-const allUsers: User[] = [];
+// const allUsers: User[] = [];
 
-const MLModels: number[][] = [[255, 255, 255], []];
+// const MLModels: number[][] = [[255, 255, 255], []];
 
-allUsers.push({ name: "", isActive: false });
+// allUsers.push({ name: "", isActive: false });
