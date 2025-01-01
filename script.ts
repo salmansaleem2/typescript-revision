@@ -1,4 +1,4 @@
-// let greetings: string = "Helo Salman";
+// let greetings: string = "Helo Salman"; 
 
 // // number
 
